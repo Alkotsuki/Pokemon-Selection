@@ -1,6 +1,6 @@
 import UIKit
 
-class SelectionScreenViewController: UIViewController {
+class SelectionScreenViewController: LifeCyclePrintingViewController {
     
     var delegate: SelectionScreenDelegate?
     

@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: LifeCyclePrintingViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

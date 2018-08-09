@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B76B7D432112E969002437E9 /* PokemonTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */; };
+		B7DF1B03211C226400B63F7A /* LifeCyclePrinitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */; };
 		B7E6710E2110342800F384FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6710D2110342800F384FC /* AppDelegate.swift */; };
 		B7E671102110342800F384FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6710F2110342800F384FC /* ViewController.swift */; };
 		B7E671132110342800F384FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E671112110342800F384FC /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTabsViewController.swift; sourceTree = "<group>"; };
+		B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCyclePrinitingViewController.swift; sourceTree = "<group>"; };
 		B7E6710A2110342800F384FC /* PokemonSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E6710D2110342800F384FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E6710F2110342800F384FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B7E6712221103ED200F384FC /* SelectionScreenDelegateProtocol.swift */,
+				B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */,
 				B7E6710F2110342800F384FC /* ViewController.swift */,
 				B7E671202110348D00F384FC /* SelectionScreenViewController.swift */,
 				B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */,
@@ -156,6 +159,7 @@
 				B7E671212110348D00F384FC /* SelectionScreenViewController.swift in Sources */,
 				B7E671102110342800F384FC /* ViewController.swift in Sources */,
 				B7E6710E2110342800F384FC /* AppDelegate.swift in Sources */,
+				B7DF1B03211C226400B63F7A /* LifeCyclePrinitingViewController.swift in Sources */,
 				B7E6712321103ED200F384FC /* SelectionScreenDelegateProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
