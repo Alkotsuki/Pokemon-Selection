@@ -1,6 +1,6 @@
 import UIKit
 
-class SelectionScreenViewController: LifeCyclePrintingViewController {
+class SelectionScreenViewController: UIViewController {
     
     var delegate: SelectionScreenDelegate?
     
@@ -30,16 +30,17 @@ class SelectionScreenViewController: LifeCyclePrintingViewController {
     
     @objc func imageTapped(tapGestureRecogniser: UITapGestureRecognizer) {
         
-        let tappedImage = tapGestureRecogniser.view as! UIImageView
+        let tappedView = tapGestureRecogniser.view as! UIImageView
+        let tappedImage = tappedView.image
         
-        switch tappedImage.image {
+        switch tappedImage {
             
         case UIImage(named: "Pikachu"):
-        delegate?.setImage(image: tappedImage, andLabel: "You've chosen Pikachu!")
+            delegate?.setImage(image: tappedImage!, andLabel: "You've chosen Pikachu!")
         case UIImage(named: "Charmander"):
-        delegate?.setImage(image: tappedImage, andLabel: "You've chosen Charmander!")
+            delegate?.setImage(image: tappedImage!, andLabel: "You've chosen Charmander!")
         case UIImage(named: "Mewtwo"):
-        delegate?.setImage(image: tappedImage, andLabel: "You've chosen Mewtwo!")
+            delegate?.setImage(image: tappedImage!, andLabel: "You've chosen Mewtwo!")
         default: break
             
         }

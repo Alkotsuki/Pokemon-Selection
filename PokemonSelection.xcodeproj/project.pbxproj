@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B76B7D432112E969002437E9 /* PokemonTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */; };
+		B74ADDE2211ED52A00FDFE37 /* SplitViewSelectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74ADDE1211ED52A00FDFE37 /* SplitViewSelectionProtocol.swift */; };
+		B781B18F211EB78800491FA7 /* MasterSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B781B18E211EB78800491FA7 /* MasterSplitViewController.swift */; };
+		B781B191211EC1C700491FA7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B781B190211EC1C700491FA7 /* DetailViewController.swift */; };
 		B7DF1B03211C226400B63F7A /* LifeCyclePrinitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */; };
 		B7E6710E2110342800F384FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6710D2110342800F384FC /* AppDelegate.swift */; };
-		B7E671102110342800F384FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6710F2110342800F384FC /* ViewController.swift */; };
+		B7E671102110342800F384FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6710F2110342800F384FC /* FirstViewController.swift */; };
 		B7E671132110342800F384FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E671112110342800F384FC /* Main.storyboard */; };
 		B7E671152110342900F384FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E671142110342900F384FC /* Assets.xcassets */; };
 		B7E671182110342900F384FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E671162110342900F384FC /* LaunchScreen.storyboard */; };
@@ -19,11 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTabsViewController.swift; sourceTree = "<group>"; };
+		B74ADDE1211ED52A00FDFE37 /* SplitViewSelectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewSelectionProtocol.swift; sourceTree = "<group>"; };
+		B781B18E211EB78800491FA7 /* MasterSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSplitViewController.swift; sourceTree = "<group>"; };
+		B781B190211EC1C700491FA7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCyclePrinitingViewController.swift; sourceTree = "<group>"; };
 		B7E6710A2110342800F384FC /* PokemonSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E6710D2110342800F384FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7E6710F2110342800F384FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7E6710F2110342800F384FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B7E671122110342800F384FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7E671142110342900F384FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E671172110342900F384FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,10 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B7E6712221103ED200F384FC /* SelectionScreenDelegateProtocol.swift */,
+				B74ADDE1211ED52A00FDFE37 /* SplitViewSelectionProtocol.swift */,
 				B7DF1B02211C226400B63F7A /* LifeCyclePrinitingViewController.swift */,
-				B7E6710F2110342800F384FC /* ViewController.swift */,
+				B7E6710F2110342800F384FC /* FirstViewController.swift */,
 				B7E671202110348D00F384FC /* SelectionScreenViewController.swift */,
-				B76B7D422112E969002437E9 /* PokemonTabsViewController.swift */,
+				B781B18E211EB78800491FA7 /* MasterSplitViewController.swift */,
+				B781B190211EC1C700491FA7 /* DetailViewController.swift */,
 				B7E671112110342800F384FC /* Main.storyboard */,
 				B7E6711F2110343500F384FC /* Supporting Files */,
 			);
@@ -155,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76B7D432112E969002437E9 /* PokemonTabsViewController.swift in Sources */,
+				B781B191211EC1C700491FA7 /* DetailViewController.swift in Sources */,
 				B7E671212110348D00F384FC /* SelectionScreenViewController.swift in Sources */,
-				B7E671102110342800F384FC /* ViewController.swift in Sources */,
+				B7E671102110342800F384FC /* FirstViewController.swift in Sources */,
+				B781B18F211EB78800491FA7 /* MasterSplitViewController.swift in Sources */,
+				B74ADDE2211ED52A00FDFE37 /* SplitViewSelectionProtocol.swift in Sources */,
 				B7E6710E2110342800F384FC /* AppDelegate.swift in Sources */,
 				B7DF1B03211C226400B63F7A /* LifeCyclePrinitingViewController.swift in Sources */,
 				B7E6712321103ED200F384FC /* SelectionScreenDelegateProtocol.swift in Sources */,
